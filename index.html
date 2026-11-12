@@ -93,6 +93,8 @@ h1,h2,h3{font-family:var(--fh);font-weight:500;line-height:1.05}
 .feat img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform .7s}
 .feat article::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(23,18,15,.92));z-index:-1}
 .feat article:hover img{transform:scale(1.06)}
+.feat article.nophoto{background:radial-gradient(120% 90% at 20% 10%,#7a3a1c 0%,#3a2218 55%,#1e1611 100%)}
+.feat article.nophoto::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(255,255,255,.035) 0 2px,transparent 2px 14px);z-index:-1}
 .feat .tx{position:absolute;left:0;right:0;bottom:0;padding:20px}
 .feat .n{font-family:var(--fl);font-size:.72rem;letter-spacing:.24em;color:var(--brass);font-weight:700}
 .feat h3{font-size:1.55rem;margin:4px 0 6px}
@@ -343,7 +345,7 @@ footer a{color:#fff}
   <article class="rv-in"><img loading="lazy" src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TlXlhiaHYp-RW2Dmry0OXtnm1b9Gcc_YEeRRZ7IjZnbf9MAbvzOgFLjuTfP421YETAD0IcFyh7XYy8HHQxnD-J6itotadxAE0kpRrvRqnul7oxcXWTQjedPTmhibEQgs_XBP2Y1q_tECWW=w700-h930-k-no" alt="Carne en la parrilla"><div class="tx"><span class="n">01</span><h3>La parrilla</h3><p>Brasas encendidas a la vista y carne a la que cada uno le da su punto.</p></div></article>
   <article class="rv-in"><img loading="lazy" src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SIK0qKM9rW2m2vrp6i8rxEhro_cbXD6FMB7_8X8t8R7QdzWQ2fPv0fB14xr_XhXe1vPziEsmpIYT036FFAigmNh1xyyGab42l4t3fKkDNGOtB1LO2ZaVROXgbPcRhm-og9dJM7upsQHpys=w700-h930-k-no" alt="Vitrina de carnes maduradas"><div class="tx"><span class="n">02</span><h3>Carnes maduradas</h3><p>Expuestas en el mostrador: elige con los ojos antes de pedir.</p></div></article>
   <article class="rv-in"><img loading="lazy" src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Qaw7wNh98Ps4Vow23xTKM-x4cA2_6WXp77eKXKbkKbzsHTnnt4w9s9Mcjckv72jLittF7wzq2hM0cR_lONGVCtVrazkW55ZQM8q8ym7_wgXok1GZ9av6TdbVauMREpqAPfUW3strwj6Ls=w700-h930-k-no" alt="Terraza con vistas a la sierra"><div class="tx"><span class="n">03</span><h3>La terraza</h3><p>Sol, vistas a La Pedriza y una caña con torreznos.</p></div></article>
-  <article class="rv-in"><img loading="lazy" src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TO8KtB2R2CEhBv-rMpxot_2CjJzyhUehiiLW-31mZ7C3L88XCsktMk4-sxH8EHenDoWtTi5VFnDosxVpN-Apr2t39ZMpE89_ebPXFw8jU2B2exoB4nJ0d5NY6r5n1ejLR7G_EYFQ=w700-h930-k-no" alt="Postre casero"><div class="tx"><span class="n">04</span><h3>Los postres de Patricia</h3><p>Caseros: tarta de queso, de zanahoria, de limón y brownie.</p></div></article>
+  <article class="rv-in nophoto"><div class="tx"><span class="n">04</span><h3>Los postres de Patricia</h3><p>Caseros: tarta de queso, de zanahoria, de limón y brownie.</p></div></article>
  </div>
 </div></section>
 
@@ -357,7 +359,7 @@ footer a{color:#fff}
   <article class="asado rv-in"><div class="ph"><img loading="lazy" src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TIMkXaSxS_WNrpx4akZmqFpiqXQCIAemIIKi7NwUiyb3m9RLjvbkzHc_ANBZWUoDWri-8QxXBymCdy-Zvao1JqJvsIwdJXimNVEwxJYVHZCbwCHqyc9y8SUqHdRVNAzjle1PODHg=w600-h450-k-no" alt="Chuletón madurado"></div><div class="tx"><h3>Chuletón 1 kg</h3><small>a la brasa · para compartir</small><span class="pr">72,50 €</span></div></article>
   <article class="asado rv-in"><div class="ph"><img loading="lazy" src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TMT6kAfhNSeBad7KnXSKYfAHKRTgc8IiUVtWBjOwQgyBByQ7bSSzp0dt1D1clpVr3VHyVDZMQ1EEZbi4xSNuBSPNxyTu2K7PtFnfQ5Arqx-QlIGxRnlWD4XHAO2r-yqhdO1RnMPnUCJh8X=w600-h450-k-no" alt="Entrecot a la brasa"></div><div class="tx"><h3>Entrecot</h3><small>a la brasa</small><span class="pr">26 €</span></div></article>
  </div>
- <p class="asados-note">También cochinillo asado para 2 (65,80 €) y cabrito asado 1/4 (69,50 €).</p>
+ <p class="asados-note">También cochinillo asado para 2 (75 €) y cabrito asado 1/4 (78 €).</p>
 </div></section>
 
 <section id="carta" class="sec-carta"><div class="wrap">
@@ -406,7 +408,7 @@ footer a{color:#fff}
  <h2 class="sec-title">"Aquí se cocina <em>en serio</em>"</h2>
  <p class="sec-sub">Lo dicen quienes ya han venido.</p>
  <div class="rv-head">
-  <div class="rv-score"><svg class="g-logo" style="width:34px;height:34px"><use href="#glogo"/></svg><b>4,5</b><div><span class="stars" style="color:#e3a92b">★★★★★</span><small>265 reseñas en Google</small></div></div>
+  <div class="rv-score"><svg class="g-logo" style="width:34px;height:34px"><use href="#glogo"/></svg><b>4,5</b><div><span class="stars" style="color:#e3a92b">★★★★★</span><small>269 reseñas en Google</small></div></div>
   <div class="rv-chips"><button class="chip on" data-f="">Todas</button><button class="chip" data-f="cordero|cochinillo|asad|horno">Los asados</button><button class="chip" data-f="postre|tarta">Postres</button><button class="chip" data-f="terraza|vistas|pedriza">La terraza</button><button class="chip" data-f="atenci|trato|servicio">El trato</button></div>
  </div>
  <div class="rv-track" id="rvTrack"></div>
@@ -468,18 +470,21 @@ window.MENU=[
 /* lunes=0 … domingo=6 */
 window.HOURS=[[],[],[],[["12:00","17:00"]],[["12:00","24:00"]],[["12:00","24:00"]],[["12:00","17:00"]]];
 window.REVIEWS=[
- {n:"Miguel Fernandez",s:5,d:"Hace 11 meses",t:"El arroz del aperitivo estaba sencillamente perfecto, en su punto y con ese sabor que te hace pensar \"aquí se cocina en serio\". Las croquetas, cremosas y bien fritas; la ensaladilla, de las que apetece repetir; y los torreznos… ¡ay, los torreznos! Crujientes, sabrosos, un peligro. Yo me lancé a por la paletilla, hecha en horno de leña: tierna y aromática. El servicio, atento y amable de principio a fin."},
- {n:"Rocío Caballero",s:5,d:"Hace 9 meses",t:"Ha sido el lugar estrella de estas navidades: un cordero y un cochinillo de deshacerse en la boca, entrecot buenísimo y con las brasas para que cada uno le ponga su punto. La atención INCREÍBLE, las cervezas con su tapa súper elaborada y sabrosa, los niños tenían un parque en la plaza y el lugar es espacioso."},
- {n:"Carola",s:5,d:"Hace 4 meses",t:"Nos sorprendieron con una carta de picoteo diferente a la que vemos en cualquier terraza: el tartar de atún y las gambas, lo recomiendo. La terraza está muy bien, con unas vistas a la Pedriza fabulosas, y el restaurante es francamente bonito con ese toque rústico moderno. La atención de 10."},
- {n:"Santi",s:5,d:"Hace 8 meses",t:"Un lugar muy acogedor, con muy buena decoración y horno de leña de cara al público. Destacar las alcachofas. De segundo pedimos arroz con carabineros y arroz de verduras hecho al horno de leña: ¡ESPECTACULAR! Los postres son caseros y muy buenos. Repetiremos a probar sus carnes maduradas."},
- {n:"Victor Fernandez",s:5,d:"Hace 4 meses",t:"De los mejores restaurantes de la Sierra de Madrid, el mejor cochinillo de Madrid."},
- {n:"Carolina Álvaro",s:5,d:"Hace 11 meses",t:"El sitio es tranquilo, el trato muy bueno y la comida está genial, especialmente el cordero. Pero lo que más nos gustó fueron los postres caseros, buenísimos. La tarta de queso y la tarta de zanahoria son un acierto total."},
- {n:"Gema Cavero",s:5,d:"Hace 4 meses",t:"Buenos aperitivos. Los torreznos muy ricos, trato espectacular y sitio agradable. La terraza en verano, un lujo. Recomendable para aperitivo, comer o cenar."},
- {n:"Cristina Bejar",s:5,d:"Hace 8 meses",t:"La experiencia ha sido simplemente maravillosa. Se nota que aquí hay un equipo que trabaja con alma: personas atentas, amables y con una sonrisa sincera. La comida es muy rica, de calidad y pensada para disfrutar, y la relación calidad-precio, más que correcta. Súper vistas comiendo, en la sierra de Madrid."},
- {n:"Eduardo Guzmán",s:5,d:"Hace 8 meses",t:"Todo estupendo, la comida buenísima, el servicio excelente. Recomiendo las croquetas, creo que son las mejores que he probado. ¡Volveremos!"},
- {n:"Silvia Alcalde",s:5,d:"Hace 9 meses",t:"La comida está muy buena, sobre todo las carnes a la brasa, y las raciones son abundantes. El ambiente es agradable y acogedor, tanto dentro como en la terraza. Un sitio ideal para comer bien y pasar un buen rato en la sierra."},
- {n:"Raúl Jimeno",s:5,d:"Hace 4 meses",t:"He repetido este jueves porque me parece un buen sitio, sin duda el mejor del Boalo y pueblos de alrededor."},
- {n:"Jaime Rubio",s:5,d:"Hace un año",t:"Fue algo especial, tanto por producto como por el trato. Ningún tipo de espera, las camareras con una sonrisa de oreja a oreja y una comida para limpiar hasta la mesa. Nos gustaron especialmente las croquetas y el cordero, y los postres, espectaculares."}
+ {n:"Paula De Juan",s:5,d:"Noviembre 2026",t:"Super recomendable. Una atención excelente! Willy nos ha atendido genial, nos ha aconsejado estupendamente y nos ha tratado como si fuéramos de la casa. Se agradece que siga habiendo sitios donde te tratan así aunque no seas cliente habitual. Muchas gracias."},
+ {n:"E de Juan",s:5,d:"Noviembre 2026",t:"Una comida estupenda. Will, la persona que nos atendió, muy amable, y nos recomendó de maravilla. Todo riquísimo, sobre todo el chuletón. Volveremos sin duda."},
+ {n:"Mathilde Nothomb",s:5,d:"Noviembre 2026",t:"Ambiente familiar, un trato excelente y comida riquísima! Fuimos después de montar a caballo y lo pasamos genial. ¡Muy recomendable!"},
+ {n:"Claudia Salido",s:5,d:"Octubre 2026",t:"Siempre nos tratan genial….!!! Y tienen las mejores gildas de la sierra. 🏔️"},
+ {n:"Juan Carlos Maestro",s:5,d:"Octubre 2026",t:"He tenido el placer de comer en este extraordinario restaurante. Me sorprendió por su amabilidad el servicio, todo acompañado de estupendos manjares. Si vais os sorprenderá."},
+ {n:"Armando Rodriguez",s:5,d:"Octubre 2026",t:"Calidad precio muy bueno, el trato muy majos. Recomendamos la tarta de limón casera, espectacular."},
+ {n:"rosa aparicio",s:5,d:"Octubre 2026",t:"Terraza muy agradable, trato fantástico, relación cantidad-calidad-precio inmejorable, muy difícil encontrar hoy en día. La comida era casera y todo estaba muy rico. Además el camarero muy agradable, nos movió a una mesa con unas vistas mejores y nos recomendó quitar una de las raciones que habíamos pedido pero nos trajo unas alitas que estaban de escándalo. Muy recomendable!"},
+ {n:"anrumaz",s:5,d:"Octubre 2026",t:"Una experiencia gastronómica inolvidable. ¡De 10 absoluto! Desde el primer momento, el trato del personal fue impecable: atentos, cercanos, profesionales y con una amabilidad que te hace sentir como en casa. La calidad de la comida es sencillamente excepcional. Se nota el mimo y el respeto por el producto fresco. Sin duda, se ha convertido en uno de mis sitios favoritos. Repetiré, ¡segurísimo!"},
+ {n:"Pedro Garcia",s:5,d:"Octubre 2026",t:"Magnífico lugar para comer, con carta variada y precios razonables. Asador con terraza y trato exquisito. Lugar espectacular para tus celebraciones."},
+ {n:"Juanma Berrocal",s:5,d:"Octubre 2026",t:"Nicolás tuvo una atención encantadora y perfecta. Muy simpático al igual que los demás empleados. Todo muy rico y los postres increíbles. Volveremos seguro."},
+ {n:"Santos Magaz",s:5,d:"Octubre 2026",t:"Todo perfecto, muy buena comida, atención agradable casi familiar, limpieza. Entorno precioso. Muy recomendable."},
+ {n:"Ricardo",s:5,d:"Septiembre 2026",t:"Hemos vuelto, pues la verdad que está súper buena la comida y la atención da gusto. En esta ocasión comimos atún rojo + guacamole con su presentación y francamente espectacular. El detalle de pan recién horneado con mantequilla es un punto. Y los postres, te dejan sin palabras. Nos vemos pronto."},
+ {n:"Olga Sanz",s:5,d:"Agosto 2026",t:"Perfecto para comer si subes a la sierra a pasar un buen día! La carta muy variada. Un asador de los de toda la vida que sorprende para bien con algunos guiños de cocina. Todo buenísimo, lo recomiendo cien por cien. El servicio de 10, muy atentos, amables y pendientes de todo."},
+ {n:"Victor Fernandez",s:5,d:"Junio 2026",t:"De los mejores restaurantes de la Sierra de Madrid, el mejor cochinillo de Madrid."},
+ {n:"Gema Cavero",s:5,d:"Junio 2026",t:"Buenos aperitivos. Los torreznos muy ricos, trato espectacular y sitio agradable. La terraza en verano un lujo. Recomendable para aperitivo, comer o cenar."}
 ];
 </script>
 <script>
