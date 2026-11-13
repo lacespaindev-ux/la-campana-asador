@@ -284,11 +284,13 @@ footer a{color:#fff}
  .asado .tx{padding:12px 12px 14px}
  .asado h3{font-size:1.1rem}
  .asado .pr{font-size:1.3rem}
- .dish{flex-wrap:wrap;gap:2px 10px}
- .dish .nm{flex:1 1 60%}
+ .dish{flex-wrap:nowrap;gap:10px}
+ .dish .nm{flex:1 1 auto;min-width:0}
  .dish .dots{display:none}
- .dish .pr span{min-width:auto}
- .cat h3 .cols span{width:auto}
+ .dish .pr{margin-left:auto;gap:8px}
+ .dish .pr span{min-width:58px}
+ .cat h3 .cols{gap:8px}
+ .cat h3 .cols span{width:58px}
  .days{grid-template-columns:repeat(4,1fr);gap:6px}
  .day b{font-size:1.15rem}
 }
